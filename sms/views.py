@@ -25,8 +25,8 @@ def sms_list(request):
     return render(request, 'sms_list.html', {'sph_messages': sph_messages})
 
 
-username = "athmanziri"
-apikey   = "6083c1f67ac28d2fb5525ed9be1ffac58a1fcda9998fc9d64ba672ef1baf9414"
+username = ""
+apikey   = ""
 
 
 def sms_create(request):
